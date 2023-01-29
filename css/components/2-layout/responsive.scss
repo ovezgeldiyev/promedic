@@ -1,0 +1,365 @@
+// 1460px
+@include xxxlg-xxxxlg {
+  main {
+    margin-top: 255px;
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+  @include cards-xxxlg-xxxxlg;
+
+}
+// 1380px
+@include xxlg-xxxlg {
+  .auto__container {
+    padding: 0 40px;
+  }
+  h1, h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  h5 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  body {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  main {
+    margin-top: 215px;
+  }
+  .input {
+    input {
+        padding: 20px 25px;
+        background-color: $main;
+        font-size: 20px;
+        line-height: 26px;
+      }
+      textarea {
+        padding: 20px 25px;
+        font-size: 20px;
+        line-height: 26px;
+      }
+      .button {
+        &.primary {
+          padding: 20px 25px;
+          font-size: 20px;
+          line-height: 26px;
+        }
+    }
+  }
+  @include header-xxlg-xxxlg;
+  @include nav-xxlg-xxxlg;
+  @include info-xxlg-xxxlg;
+  @include intro-xxlg-xxxlg;
+  @include services-xxlg-xxxlg;
+  @include cards-xxlg-xxxlg;
+  @include about-xxlg-xxxlg;
+  @include benefits-xxlg-xxxlg;
+  @include counter-xxlg-xxxlg;
+  @include reviews-xxlg-xxxlg;
+
+
+}
+// 1240px
+@include xlg-xxlg {
+  main {
+    margin-top: 178px;
+  }
+  @include nav-xlg-xxlg;
+  @include header-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include team-xlg-xxlg;
+  @include services-xlg-xxlg;
+  @include cards-xlg-xxlg;
+  @include reviews-xlg-xxlg;
+  @include footer-xlg-xxlg;
+}
+// 1180px
+@include xlg-xxlg-extra {
+  @include info-xlg-xxlg-extra;
+  @include cards-xlg-xxlg-extra;
+  @include about-xlg-xxlg-extra;
+  @include benefits-xlg-xxlg-extra;
+  @include counter-xlg-xxlg-extra;
+  @include reviews-xlg-xxlg-extra;
+
+
+}
+// 1080px
+@include lg-xlg-extra {
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  h1, h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  p {
+    &.sm {
+      font-size: 15px;
+      line-height: 24px;
+    }
+    &.ex {
+      font-size: 12px;
+      line-height: 25px;
+      font-weight: 200;
+    }
+  }
+  .button {
+    &.primary {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 14px 44px;
+    }
+    &.secondary {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 13px 4px;
+    }
+  }
+  body {
+    font-size: 18px;
+    line-height: 33px;
+  }
+  main {
+    margin-top: 68px;
+  }
+  @include header-lg-xlg-extra;
+  @include nav-lg-xlg-extra;;
+  @include hero-lg-xlg-extra;;
+  @include info-lg-xlg-extra;
+  @include intro-lg-xlg-extra;
+  @include team-lg-xlg-extra;
+  @include services-lg-xlg-extra;
+  @include counter-lg-xlg-extra;
+  @include reviews-lg-xlg-extra;
+  @include footer-lg-xlg-extra;
+
+}
+// 1024px
+@include lg-xlg {
+  @include hero-lg-xlg;
+  @include intro-lg-xlg;
+  @include team-lg-xlg;
+  @include services-lg-xlg;
+  @include cards-lg-xlg;
+  @include worktime-lg-xlg;
+  @include counter-lg-xlg;
+  @include reviews-lg-xlg;
+  @include footer-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+    h1, h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    body {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    p {
+        &.sm {
+        font-size: 13px;
+        line-height: 20px;
+        }
+        &.ex {
+        font-size: 12px;
+        line-height: 20px;
+        }
+    }
+    .button {
+        &.primary {
+            font-size: 14px;
+            line-height: 17px;
+            padding: 12px 36px;
+        }
+        &.secondary {
+            font-size: 11px;
+            line-height: 15px;
+            padding: 10px 2px;
+        }
+    }
+    @include hero-md-lg;
+    @include intro-md-lg;
+    @include info-md-lg;
+    @include team-md-lg;
+    @include cards-md-lg;
+    @include about-md-lg;
+    @include benefits-md-lg;
+    @include worktime-md-lg;
+    @include counter-md-lg;
+    @include reviews-md-lg;
+
+}
+// 820px
+@include sm-md-extra {
+    .auto__container {
+        padding: 0 30px;
+    }
+    .button {
+      &.secondary {
+          font-size: 9px;
+          line-height: 13px;
+          padding: 10px 2px;
+      }
+    }
+    @include intro-sm-md-extra;
+    @include services-sm-md-extra;
+    @include cards-sm-md-extra;
+    @include about-sm-md-extra;
+    @include benefits-sm-md-extra;
+    @include reviews-sm-md-extra;
+
+}
+// 700px
+@include sm-md {
+    .auto__container {
+        padding: 0 25px;
+    }
+    h1, h2 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .button {
+      &.secondary {
+          font-size: 10px;
+          line-height: 15px;
+          padding: 10px 2px;
+      }
+    }
+    @include hero-sm-md;
+    @include info-sm-md;
+    @include cards-sm-md;
+    @include about-sm-md;
+    @include benefits-sm-md;
+    @include worktime-sm-md;
+    @include reviews-sm-md;
+    @include footer-sm-md;
+}
+// 630px
+@include xsm-sm-extra {
+  @include info-xsm-sm-extra;
+  @include team-xsm-sm-extra;
+  @include services-xsm-sm-extra;
+  @include cards-xsm-sm-extra;
+  @include counter-xsm-sm-extra;
+  @include reviews-xsm-sm-extra;
+
+}
+// 560px
+@include xsm-sm {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h1, h2 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    body {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    main {
+      margin-top: 60px;
+    }
+    .input {
+        input {
+            padding: 16px 20px;
+            background-color: $main;
+            font-size: 18px;
+            line-height: 24px;
+          }
+          textarea {
+            padding: 16px 20px;
+            font-size: 18px;
+            line-height: 24px;
+          }
+          .button {
+            max-width: 168px;
+            margin: 14px 0 0 auto;
+            &.primary {
+                padding: 15px 20px;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+      }
+    @include nav-xsm-sm;
+    @include header-xsm-sm;
+    @include hero-xsm-sm;
+    @include services-xsm-sm;
+    @include team-xsm-sm;
+    @include about-xsm-sm;
+    @include benefits-xsm-sm;
+    @include worktime-xsm-sm;
+    @include counter-xsm-sm;
+    @include reviews-xsm-sm;
+    @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  .auto__container {
+    padding: 0 15px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  @include hero-xxsm-xsm;
+  @include intro-xxsm-xsm;
+  @include counter-xxsm-xsm;
+}
+// 380px
+@include xxxsm-xxsm {
+  .button {
+    &.secondary {
+        font-size: 9px;
+        line-height: 12px;
+        padding: 10px 2px;
+    }
+  }
+  @include about-xxxsm-xxsm;
+}
